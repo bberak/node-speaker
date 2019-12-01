@@ -21,8 +21,8 @@
 #include "debug.h"
 
 /* My laptop has probs playing low-sampled files with only 0.5s buffer... this should be a user setting -- ThOr */
-/* Changing this to 0.01s to support realtime sound synthesis -- bberak */
-#define BUFFER_LENGTH 0.01	/* in seconds */
+/* Changing this to 0.05s to support realtime sound synthesis -- bberak */
+#define BUFFER_LENGTH 0.05	/* in seconds */
 
 static const struct {
 	snd_pcm_format_t alsa;
